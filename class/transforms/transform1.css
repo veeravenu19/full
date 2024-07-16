@@ -1,0 +1,18 @@
+.main{
+    width: 100%;
+    height: 97svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* perspective: 40px; */
+    /* perspective-origin: center; */
+}
+.div1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    /* transform-style: preserve-3d; */
+}
+.div1:hover{
+    transform: scale(1.1);
+}

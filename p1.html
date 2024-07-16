@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //    x=parseInt(window.prompt("enter the first number: "));
+    //    y=parseInt(window.prompt("enter the second digit : "));
+    //    if(x>y){
+    //     document.write(x," is the maximum");
+    //     // document.write(")
+    //    }
+    //    else if(y<x) {
+    //     document.write(y," is the maximum");
+    //    }
+    //    else{
+    //     document.write(a," equal ",b);
+    //    }
+    // var a=[1,2,3,4,5,6,7,8,9];
+    // for( i=0; i<a.length;i++){
+    //     console.log(a[i]);
+    // }
+    // a.map(i => {
+    //     document.write(i," ");
+    // })
+    // window.alert("danger");
+    n = parseInt(window.prompt("enter the for checkin prime number"));
+    function prime(x){
+    var c=0;
+    for(var i=0;i<=x;i++){
+        if(x%i==0){
+            c+=1;
+        }
+    }
+    if(c==2){
+        return true;
+    }
+    else{
+        return false;
+    }
+    }
+    for(var a=0;a<=n;a++){
+        if(prime(a)){
+            document.write(a);
+        }
+    }
+    </script>
+    <script src=""></script>
+</head>
+<body>
+    
+</body>
+</html>

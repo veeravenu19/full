@@ -1,0 +1,102 @@
+.div1{
+    width: 100%;
+    height: 97svh;
+    background-color: sandybrown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div2{
+    width: 40%;
+    height: 35%;
+    /* background-color: palegoldenrod; */
+    background-image: url("https://lifearchitekture.com/cdn/shop/articles/a-beautiful-night-in-nature-819935.jpg?v=1702959029");
+    background-size: 100% 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.div3{
+    width: 20%;
+    height: 35%;
+    /* background-color:  blue; */
+    background-image: url("background2.jpg");
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.div4{
+    width: 30%;
+    height: 20%;
+    /* background-color: red; */
+    background-image: url("thublogo.png");
+    background-size: 100% 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.div5{
+    width: 15%;
+    height: 35%;
+    /* background-c
+    olor: red; */
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    background-image: url("owlcoder.png");
+    background-size: 100% 100%;
+}
+.div6{
+    width: 20%;
+    height: 50%;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    background-image: url("owl.png");
+    background-size: 100% 100%;
+}
+.div7{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+    background-image: url("https://assets-global.website-files.com/62b4c5fb2654ca30abd9b38f/651fa17bbbad4c45d561dcbf_vertical%20barcode.png") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div8{
+    width: 60%;
+    height: 60%;
+    /* background-color: red; */
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.div9{
+    width: 100%;
+    height: 20%;
+
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* background-color: pink; */
+}
+.div10{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 20px;
+}
+.div11{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* background-color: magenta; */
+}

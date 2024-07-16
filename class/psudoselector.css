@@ -1,0 +1,15 @@
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:first-child{
+
+     background-color: red;
+     font-weight: 900;
+}
+/* td:first-child{
+    background-color: blue;
+} */
+tr:hover{
+    background-color: blueviolet;
+}

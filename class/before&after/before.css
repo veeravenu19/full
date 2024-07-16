@@ -1,0 +1,229 @@
+body{
+    width: 100%;
+    height: 97svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.div1{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.div1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: red;
+    left: 150px;
+    border-radius: 30px;
+}
+.div1:hover::before{
+    left: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    z-index: -9999;
+}
+.div1:hover{
+    color: white;
+    z-index: 9999;
+    transition-delay: 600ms;
+    transition-timing-function: linear;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.div2::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    border-radius: 50%;
+}
+.div2:hover::before{
+    left: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+    z-index: -999;
+}
+.div2:hover{
+    transform: scale(1.3);
+    box-shadow:0px 0px 1px 5px #9ecaed;
+    transition: all;
+    transition-duration: 1s;
+    color: white;
+    z-index: 999;
+}
+.div3{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: skew(30deg);
+    background: radial-gradient(white,red);
+    transition-duration: 1s;
+}
+.div3:hover{
+    transform: skew(-30deg);
+}
+.div3::before{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top,red,black);
+    position: absolute;
+    top: 0;
+    right: 150px;
+    transition-duration: 1s;
+}
+.div3::after{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(red,black);
+    position: absolute;
+    top: 0;
+    left: 150px;
+    transition-duration: 1s;
+}
+.div3:hover::before{
+    right: 0;
+    z-index: -9999;
+    transition-duration: 1s;
+    /* border: 2px solid cadetblue; */
+}
+.div3:hover::after{
+    left: 0;
+    z-index: -9999;
+    /* border: 2px solid aquamarine; */
+    transition-duration: 1s;
+}
+.div3:hover{
+    color: white;
+    transition-duration: 1s;
+    z-index: 9999;
+}
+.div4{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.div4::before{
+    content: "";
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    background-image: url("arrow.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1px;
+    transition-duration: 1s;
+    left: 0;
+}
+.div4:hover::before{
+    left: 120px;
+    transition-duration: 1s;
+}
+.div4::after{
+    content: "click here";
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: radial-gradient(orange 50%,yellow);
+    left: -150px;
+    z-index: 1;
+    text-align: center;
+    text-justify: center;
+}
+.div4:hover::after{
+    left: 0;
+    transition-duration: 1s;
+    border-color: red;
+}
+.div4:hover{
+    box-shadow: 0px 0px 3px 5px orange ;
+    border-color: orange;
+}
+.div5{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 100px;
+    position: relative;
+    /* overflow: hidden; */
+    animation-name: my_animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+.div5::before{
+    content: "";
+    width: 250px;
+    height: 30px;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+}
+.div5:hover::before{
+    top: -140px;
+    transition-duration:1s ;
+    transition-timing-function: linear;
+}
+.div5::after{
+    content: "";
+    width: 250px;
+    height: 110px;
+    border: 1px solid blue;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.NFzC1KMrQO7COlWg7czTawHaEK&pid=Api&P=0&h=180");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 200px;
+    /* display: none; */
+    /* transition-duration: 5s;
+    transition-timing-function: linear; */
+}
+.div5:hover::after{
+    top: -110px;
+    visibility: visible;
+    animation-name: my_animation;
+    animation-duration: 1s;
+    background-size: 100% 100%;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+@keyframes my_animation{
+    0%{
+        visibility: hidden;
+        overflow: hidden;
+    }
+    50%{
+        visibility: hidden;
+        overflow: hidden;
+    }
+    80%{
+        visibility: hidden;
+        overflow: visible;
+    }
+    100%{
+        visibility: visible;
+        overflow: visible;
+    }
+}

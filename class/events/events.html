@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="events.js">
+        </script>
+</head>
+<body>
+    <form action="">
+    <label for="">Name : </label><br>
+    <input type="text" name="Name" onchange="fun(event)"/><br>
+    <label for="">Roll no :</label><br>
+    <input type="number" name="Roll no" onchange="fun(event)"><br>
+    <label for="">Age : </label><br>
+    <input type="number" name="age" onchange="fun(event)"><br>
+    <label for="">College :</label><br>
+    <select name="College" id="" onchange="fun(event)">
+        <option value="Select">Select</option>
+        <option value="ACE">ACE</option>
+        <option value="ACET">ACET</option>
+        <option value="ACOE">ACOE</option>
+    </select><br>
+    <label for="">Date of birth :</label><br>
+    <input type="date" name="Date of birth" onchange="fun(event)"><br>
+    <label for="Gender">Gender :</label><br>
+    <input type="radio" name="Gender"  value="Male" onchange="fun(event)"> <label >Male</label><br>
+    <input type="radio" name="Gender" value="Female" onchange="fun(event)"> <label >Female</label><br>
+    <input type="radio" name="Gender" value="Others" onchange="fun(event)"> <label >Others</label><br>
+    <label for="checkbox" >Languages known :</label><br>
+    <input type="checkbox" name="checkbox" id="" value="telugu" onchange="fun(event)"><label for="">telugu</label><br>
+    <input type="checkbox" name="checkbox" id="" value="english" onchange="fun(event)"><label for="">english</label><br>
+    <input type="checkbox" name="checkbox" id="" value="hindi" onchange="fun(event)"><label for="">hindi</label><br>
+    <button onclick="fun1(event)">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100svh;
+    row-gap: 20px;
+    background-color: black;
+}
+/* .mydiv{
+    width: 64px;
+    height: 34px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+    overflow: hidden;
+
+} */
+button{
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    position: relative;
+    border-radius: 10px;
+    /* z-index: 999; */
+    
+}
+button:hover{
+    transform: scale(1.1);
+    transition-timing-function: linear;
+    cursor: pointer;
+    /* background-color: red; */
+    /* transition-duration: 2s; */
+}
+.b1:hover{
+    transform: scale(1.1);
+    transition-timing-function: linear;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+    /* button::before{
+    content: "";
+    width:68px;
+    height: 38px;
+    background-color: blue;
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: -40px;
+    animation: animate 0.5s linear infinite;
+    transform-origin: bottom right;
+}
+button::after{
+    content: "";
+    width:68px;
+    height: 38px;
+    background-color:red;
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: -40px;
+    animation: animate 1s linear infinite;
+    transform-origin: bottom right;
+    transition-delay: -1s;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+.table_1{
+    width:98%;
+    /* border-collapse:collapse; */
+    /* // background: linear-gradient(to right,orange,white,green); */
+    /* // opacity:0.2; */
+     background: linear-gradient(to right,#D4145A ,#FBB03B);
+}
+.td_tag{
+    /* border: 1px solid black; */
+    padding : 8px;
+    text-align:left;
+}
+.td_tag:hover{
+    background-color: yellow;
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+.td_tag:nth-child(5):hover{
+    background-color: transparent;
+    transform: scale(1.05);
+} 
+.td_tag:nth-child(6):hover{
+    background-color: transparent;
+    transform: scale(1.05);
+} 
+.button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.update_button{
+    background-color: green;
+}
+.delete_button{
+    background-color : red;
+}
+@media screen and (max-width:500px){
+.table_1{
+width: 320px;
+}
+}

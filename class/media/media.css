@@ -1,0 +1,24 @@
+.navbaar{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+.options_max_screen{
+    display: flex;
+    font-size: 32px;
+    column-gap: 50px;
+    justify-content: center;
+}
+select{
+    display: none;
+}
+@media screen and ((min-width:400px) and (max-width:800px)) {
+    .options_max_screen{
+        display: none;
+    }
+    select{
+        display: block;
+    }
+}

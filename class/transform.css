@@ -1,0 +1,88 @@
+.mydiv{
+    width: 100%;
+    height: 97svh;
+    background-color: red;
+}
+.parta{
+    width: 100%;
+    height: 32.33svh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partb{
+    width: 100%;
+    height: 32.33svh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.partc{
+    width: 100%;
+    height: 32.33svh;
+    background-color: magenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child1{
+    height: 100%;
+    width: 33.33%;
+    background-color: maroon;
+    position: relative;
+    perspective: 50px;
+    perspective-origin: top;
+}
+.child2{
+    height: 100%;
+    width: 20%;
+    background-color: green;
+    position: relative;
+    perspective: 9px;
+    perspective-origin: right;
+}
+.child3{
+    height: 100%;
+    width: 10%;
+    background-color: white;
+}
+.child4{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(67, 104, 67);
+    position: relative;
+    perspective-origin: left;
+    perspective: 9px;
+}
+.child5{
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb(148, 170, 148);
+}
+/* .div1{
+    width: 80%;
+    height: 80%;
+    background-color: green;
+    position: absolute;
+    bottom: -50;
+    transform: rotatex(-90deg);
+} */
+ .div2{
+    transform-style:preserve-3d ;
+    height: 100%;
+    width: 80%;
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    transform: rotateY(10deg);
+ }
+ .div3{
+    height: 240px;
+    width: 280px;
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    transform-style:preserve-3d ;
+    transform: rotatey(-10deg);
+ }

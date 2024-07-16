@@ -1,0 +1,45 @@
+.m{
+    width: 100%;
+    height: 97svh;
+    background-color: antiquewhite;
+    display: flex;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block{
+    width: 270px;
+    height: 270px;
+    background-color: white;
+    border-radius: 40px;
+    position: relative;
+
+}
+.strip{
+    width: 10px;
+    height: 70px;
+    background-color: black;
+    position:absolute;
+    top:60px;
+}
+.image{
+    width: 100%;
+    height: 230px;
+    background-image: url("https://altlights.com/Product_Images/ALLORA_Residential_WHITE_NA_ALT0834.png");
+    background-size: 100% 100%;
+
+}
+.lable{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lable1{
+    font-weight: 600;
+    font-size: 30px;
+}
+.lable2{
+    color: red;
+    text-align: center;
+}

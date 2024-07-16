@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 97vh;
+}
+/* .part_a{ */
+    /* width: 100%;
+    height: 100%;
+    border: 1px solid black;
+} */
+.background{
+    width: 100%;
+    /* height: 100%; */
+    /* max-height: 100svh; */
+    background-image: url("https://www.altlights.com/assets/img/Day_Colored.png ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    /* min-height:45svh; */
+    aspect-ratio: 2 / 1;
+    position: relative;
+}
+.background:hover{
+    background-image: url("https://www.altlights.com/assets/img/Night_Uncolored.png ");
+}
+.header{
+    width: 100%;
+    height: 15%;
+    background:linear-gradient(black,rgb(56, 54, 54));
+    opacity: 0.9;
+    display: flex;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    width: 260px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* border: 2px solid red; */
+}
+.logo1{
+    width: 180px;
+    height: 35%;
+    background-image: url("https://www.altlights.com/static/media/Logo_Image.30031c07f18c8695da51.png");
+    background-size: 100% 100%;
+}
+.elements{
+    width: 700px;
+    height: 90%;
+    /* margin-left: 30px; */
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    column-gap: 30px;
+    /* border: 1px solid red; */
+}
+li{
+    list-style-type: none;
+    float: left;
+    color: white;
+    padding: 10px;
+    font-size: 1.5vw;
+    padding-right:30px;
+}
+.symbol_1{
+    width: 550px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* border: 1px solid red; */
+}
+.symbol_2{
+    width: 100px;
+    height: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* z-index: 99; */
+    display: none;
+
+}
+.text_on_image_parent{
+    width: 500px;
+    height: 250px;
+    /* background-color: black; */
+    /* opacity: 0.1; */
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 35%;
+    left:10%;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    font-weight: 600;
+    /* color: green; */
+    text-underline-offset: 30px;
+}
+.text_on_image_child1{
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid red; */
+}
+.text_on_image_child2{
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid blue ; */
+}
+.text_on_image_child3{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid green; */
+}
+.text_on_image_text_dec{
+    color: white;
+    font-size: 5vw;
+    font-weight: 600;
+}
+.text_on_image_text_dec1{
+    color: white;
+    font-size: 1.8vw;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+@media screen and (max-width:552px){
+    .background{
+        height: 40%;
+        background-size: 100% 100%;
+        
+    }
+}
+@media screen and (max-width:768px){
+    .logo{
+        width: 200px;
+        align-items: start;
+    }
+    .logo1{
+        width: 150px;
+        height: 50%;
+    }
+    .text_on_image_parent{
+        left: 35%;
+        top: 53%;
+    }
+}
+@media screen and (max-width:768px){
+    .logo{
+        width: 180px;
+        align-items: start;
+    }
+    .logo1{
+        width: 150px;
+        height: 80%;
+    }
+    .header{
+        height: 20%;
+    }
+}
+@media screen and (max-width:426px){
+    .logo1{
+        height: 50%;
+        width: 120px;
+    }
+    .logo{
+        width: 130px;
+    }
+}
+@media screen and (max-width:993px){
+    .elements{
+        display: none;
+    }
+    .symbol_2{
+        display: block;
+    }
+}

@@ -1,0 +1,215 @@
+.bg{
+    width: 100%;
+    height: 97svh;
+    background-color: #000000;
+    position: fixed;
+}
+.line1{
+    width: 100%;
+    height: 30px;
+    /* background-color: red;            */
+    position: relative;
+
+}
+.line2{
+    width: 100%;
+    height: 30px;
+    /* background-color: green; */
+    /* margin-left: 20px;*/
+    position: relative;
+    left: 20px;
+    
+}
+.line3{
+    width: 100%;
+    height: 30px;
+    /* background-color: magenta; */
+    /* margin-left: 30px; */
+    position: relative;
+    left: 30px;
+
+}
+.star{
+    float: left;
+    margin-left: 20px;
+}
+.moon{
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+    background-color: white;
+    position: relative;
+    left: 1050px;
+    bottom: 10px;
+    box-shadow: 0px 0px 5px 10px whitesmoke ;
+}
+.house{
+    width: 450px;
+    height: 300px;
+    background-color: #FED966;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+}
+.door{
+    width: 130px;
+    height: 250px;
+    background-color: #F4B184;
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+    border: 1px solid black;
+}
+.doornob{
+    width: 20px;
+    height: 20px;
+    border-radius: 250px;
+    background-color: white;
+    position: relative;
+    top: 120px;
+    left: 10px;
+}
+.window{
+    width: 100px;
+    height: 100px;
+    background-color: #4473C5;
+    float: left;
+    position: relative;
+    border: 1px solid black;
+    left: 60px;
+    top: 70px;
+}
+.tree{
+    width: 50px;
+    height: 270px;
+    background-color: #F4B184;
+    position: absolute;
+    left: 1250px;
+    bottom: 0px;
+}
+.leaf1{
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+    background-color: #A8D18D;
+    border: 1px solid black;
+    position: absolute;
+    left: 1120px;
+    bottom: 190px;
+}
+.leaf2{
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+    background-color: #A8D18D;
+    border: 1px solid black;
+    position: absolute;
+   left: 1260px;
+   bottom: 190px;
+}
+.leaf3{
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+    background-color: #A8D18D;
+    border: 1px solid black;
+    position: absolute;
+   left: 1200px;
+   bottom: 290px;
+}
+.windowdiv1{
+    width: 100px;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+.windowdiv2{
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid black;
+}
+.windowdiv3{
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid black;
+}
+.roof{
+    width: 660px;
+    height: 100px;
+    background-color: #BF9100;
+    position: absolute;
+    left: 90px;
+    bottom: 300px;
+}
+.box1{
+    width: 110px;
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    position: absolute;
+    border-bottom-style: none ;
+    bottom: 42px;
+}
+.box2{
+    width: 110px;
+    height: 50px;
+    border: 1px solid white;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    position: absolute;
+    left: 108px;
+    bottom:8px;
+    border-top-style: none;
+}
+.box3{
+    width: 110px;
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    position: absolute;
+    border-bottom-style: none ;
+    left: 216px;
+    bottom: 42px;
+}
+.box4{
+    width: 110px;
+    height: 50px;
+    border: 1px solid white;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    position: absolute;
+    left: 324px;
+    bottom:8px;
+    border-top-style: none;
+}
+.box5{
+    width: 110px;
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    position: absolute;
+    border-bottom-style: none ;
+    left: 432px;
+    bottom: 42px;
+}
+.box6{
+    width: 118px;
+    height: 50px;
+    border: 1px solid white;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    position: absolute;
+    left: 540px;
+    bottom:8px;
+    border-top-style: none;
+}
+.chimny{
+    width: 50px;
+    height: 70px;
+    background-color: #D0CECF;
+    position: absolute;
+    left: 600px;
+    bottom: 400px ;
+}

@@ -1,0 +1,192 @@
+.maindiv{
+    width: 100%;
+    height: 97svh;
+    background-color: white;
+    overflow: visible;
+
+}
+.cloud1{
+    width: 150px;
+    height: 200px;
+    background-color: #4F95DA;
+    float: left;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 250px;
+}
+.cloud2{
+    width: 160px;
+    height: 130px;
+    background-color: #4F95DA;
+    float: left;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 90px;
+    position: relative;
+    right: 2px;
+}
+.cloud3{
+    width: 150px;
+    height: 160px;
+    background-color: #4F95DA;
+    float: left;
+    position: relative;
+    right: 5px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.cloud4{
+    width: 160px;
+    height: 170px;
+    background-color: #4F95DA;
+    float: left;
+    position: relative;
+    right: 5px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.cloud5{
+    width: 130px;
+    height: 130px;
+    background-color: #4F95DA;
+    float: left;
+    position: relative;
+    right: 6px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.cloud6{
+    width: 150px;
+    height: 150px;
+    background-color: #4F95DA;
+    float: left;
+    position: relative;
+    right: 7px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.cloud7{
+    width: 250px;
+    height: 120px;
+    background-color: #4F95DA;
+    float: left;
+    position: relative;
+    right: 12px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+
+}
+.cloud8{
+    width: 150px;
+    height: 180px;
+    background-color: #4F95DA;
+    float: left;
+    position: relative;
+    right: 20px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.cloud9{
+    width: 100px;
+    height: 140px;
+    background-color: #4F95DA;
+    float: left;
+    position: relative;
+    right: 20px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.cloud10{
+    width: 150px;
+    height: 200px;
+    background-color: #4F95DA;
+    float: left;
+    position: fixed;
+    right: 0px;
+    top: 8px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.sun{
+    width: 200px;
+    height: 200px;
+    border-radius: 250px;
+    background-color: #FFC000;
+    position: relative;
+    left: 940px;
+    top: 50px;
+    box-shadow: 0px 0px 10px 15px #DDA286;
+}
+.road1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    /* top: 400px; */
+    bottom: 0px;
+
+}
+.dottedlines{
+    border: 15px dashed  white;
+    position: relative;
+}
+.road2{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: fixed;
+    /* top: 400px; */
+    bottom: 100px;
+
+}
+.carbody{
+    width: 300px;
+    height: 70px;
+    background-color: #FE0000;
+    margin-left: 170px;
+    /* display: flex;
+    align-items: self-end;
+    justify-content: space-evenly; */
+    box-shadow: 0px 0px 3px 5px black;
+    position: relative;
+    bottom: 0px;
+}
+.cartyre1{
+    width: 80px;
+    height: 80px;
+    background-color: #3A3A3A;
+    border-radius: 250px;
+    margin-left: 200px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 0px 0px 3px 5px #dddddd;
+}
+.cartyre2{
+    width: 80px;
+    height: 80px;
+    background-color: #3A3A3A;
+    border-radius: 250px;
+    float: left;
+    margin-left: 60px;
+    position:relative;
+    bottom: 10px;
+    box-shadow: 0px 0px 3px 5px #dddddd;
+}
+.headlight{
+    width: 28px;
+    height: 28px;
+    background-color: #195D81;
+    border: 1px solid black;
+    margin-left: 272px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+
+}
+.carhead{
+    width: 200px;
+    height: 70px;
+    background-color: #C00000;
+    position: absolute;
+    bottom: 150px;
+    left: 220px;
+    box-shadow: 0px 0px 3px 5px black;
+}

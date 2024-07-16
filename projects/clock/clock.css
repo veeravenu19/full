@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    height: 97svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    width: 500px;
+    height: 500px;
+    border: 20px groove red;
+    border-radius: 50%;
+    background-image: url("https://illustoon.com/photo/5054.png");
+    background-size: 100% 100%;
+}
+.div2{
+    width: 180px;
+    height: 2px;
+    background-color: black;
+    margin-top: 250px;
+    margin-left: 250px;
+    animation-name:animat ;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.div3{
+    width: 150px;
+    height: 2px;
+    background-color: blue;
+    margin-left: 250px;
+    margin-top: -5px;
+    animation-name:animat ;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.div4{
+    width: 90px;
+    height: 2px;
+    background-color: magenta;
+    margin-left: 250px;
+    animation-name:animat ;
+    animation-duration: 216000s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes animat{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: left;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: left;
+    }
+}

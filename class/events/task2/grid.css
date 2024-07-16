@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    /* display: flex; */
+}
+table,td{
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    /* border-radius: 10px; */
+    border-collapse: collapse;
+}
+table{
+    background: linear-gradient(to right,#D4145A ,#FBB03B);
+}
+td{
+    /* background:linear-gradient(blue,black) */
+    background-color: #BF8D63;
+}
+tr:nth-child(even){
+    td:nth-child(odd){
+    background-color: black;
+}}
+tr:nth-child(odd){
+    td:nth-child(even){
+    background-color: black;
+}}
+button{
+    margin: 20px;
+    width: 80px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 3px 2px solid green;
+    border: none;
+    outline: none;
+}
+div{
+    /* border: 1px solid black; */
+    position: relative;
+    margin-top: 30px;
+}
+.right{
+    position: absolute;
+    left: 160px;
+    /* top: 10px; */
+}
+.top{
+    position: absolute;
+    top: -10px;
+    left: 80px;
+    margin-top: 0;
+}
+.down{
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    margin-bottom: -20px;
+}
+/* .left{
+    position: absolute;
+    left: 140px;
+} */
+ .king{
+    background-image: url("https://img.pikbest.com/wp/202347/chess-pieces-title-regal-piece-icon-3d-rendered-social-media-symbol-of-the-golden-king-on-matte-gold-plate_9764857.jpg!sw800");
+    background-size: 100% 100%;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+ }
+ .remove{
+    background-image: none;
+ }
+ .solider{
+    background-image: url("https://e7.pngegg.com/pngimages/408/760/png-clipart-chess-piece-xiangqi-board-game-chess-pieces-soldiers-game-king.png");
+    background-size: 100% 100%;
+ }
+ .score{
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    right: 200px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;
+    overflow: hidden;
+ }
+ .score1{
+    margin-top: 0;
+    width: 100%;
+    height: 40%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 800;
+ }
+ .score2{
+    width: 100%;
+    height: 60%;
+    background-color: orange;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+ }

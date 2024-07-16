@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.div1{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    animation-name: my_animation3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.div2{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    animation-name: my_animation4;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.moon{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: my_animation1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(233, 80, 80);
+    border-radius: 50%;
+    animation-name: my_animation2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes my_animation1{
+    0%{
+        transform: rotate(0deg) translate(250px);
+    }
+    50%{
+        transform: rotate(180deg) translate(250px);
+    }
+
+    100%{
+        transform: rotate(360deg) translate(250px);
+        
+    }
+}
+@keyframes my_animation2{
+    0%{
+        transform: rotate(0deg) translate(-250px);
+    }
+    100%{
+        transform: rotate(360deg) translate(-250px);
+    }
+}
+@keyframes my_animation3{
+    0%{
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.A9mmUEAq5jXf3PWkEsiSCwHaEK&pid=Api&P=0&h=180");
+        background-size: 100% 100%;
+    }
+    50%{
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.A9mmUEAq5jXf3PWkEsiSCwHaEK&pid=Api&P=0&h=180");
+        background-size: 100% 100%;
+    }
+    51%{
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.otnlZA1u2yqD3_mXbP7OHAHaEo&pid=Api&P=0&h=180");
+    }
+    100%{
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.otnlZA1u2yqD3_mXbP7OHAHaEo&pid=Api&P=0&h=180");
+        background-size: 100% 100%;
+    }
+}
+@keyframes my_animation4{
+    0%{
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.otnlZA1u2yqD3_mXbP7OHAHaEo&pid=Api&P=0&h=180");
+        background-size: 100% 100%;
+    }
+    50%{
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.otnlZA1u2yqD3_mXbP7OHAHaEo&pid=Api&P=0&h=180");
+        background-size: 100% 100%;
+    }
+    51%{
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.A9mmUEAq5jXf3PWkEsiSCwHaEK&pid=Api&P=0&h=180");
+    }
+    100%{
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.A9mmUEAq5jXf3PWkEsiSCwHaEK&pid=Api&P=0&h=180");
+        background-size: 100% 100%;
+    }
+}

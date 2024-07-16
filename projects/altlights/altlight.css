@@ -1,0 +1,964 @@
+body{
+    margin:0;
+    width:100%;
+}
+.part1{
+    width: 100%;
+    /* height: 100svh; */
+    /* border: 1px solid black; */
+    background-image: url(https://www.altlights.com/assets/img/Day_Colored.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    aspect-ratio: 2/1;
+    /* border: solid 5px red; */
+    /* opacity: 0.7; */
+    /* transition: all 1s; */
+    /* position: relative;s */
+}
+.header{
+    
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid black; */
+    /* aspect-ratio: 2/1; */
+    display: flex;
+    background:linear-gradient(to bottom,black,transparent);
+    position: fixed;
+    top: 0;
+    /* opacity: 0.7; */
+    z-index: 99;
+    
+}
+.alt_logo{
+    width: 230px;
+    height: 100%;
+    /* border: 1px solid red; */
+    
+    /* margin-left: 80px;
+    margin-top: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logo{
+    width: 150px;
+    height: 50%;
+    /* border: 1px solid black; */
+    background-image: url(https://www.altlights.com/static/media/Logo_Image.30031c07f18c8695da51.png);
+    background-size: 100% 100%;
+}
+.menu{
+    width: 600px;
+    height:90% ;
+    /* border: 1px solid #ff0000; */
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    /* flex-wrap: wrap;5 */
+    /* position: relative; */
+}
+.home{
+    font-size: 22px;
+    color: white;
+}
+.bar{
+    width: 850px;
+    height: fit-content;
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: end;
+}
+.bar_logo{
+    width: 100px;
+    height: 60%;
+    /* border: 1px solid black; */
+    /* background-color: rebeccapurple; */
+    /* display: flex;
+    align-items: end;
+    justify-content: center; */
+    /* z-index: 99; */
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .menu{
+        display: none;
+    }
+    .bar_logo{
+        display: block;
+        margin-top: 15px;
+    }
+    .header{
+        height: 10%;
+    }
+}
+/* @media screen and (max-width:500px) {
+    .header{
+        height:100px;
+    }
+} */
+@media screen and (max-width:425px){
+    .bar_logo{
+        /* display: block; */
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    .bar_logo{
+        /* display: block; */
+        margin-top: 5px;
+    }
+    .header{
+        height: 10%;
+    }
+}
+/* @media screen and (max-width:650px){
+    .header{
+        height: 15%;
+    }
+} */
+@media screen and (max-width:430px) {
+    .bar_logo{
+        margin-top: 0;
+    }
+}
+/* @media screen and (max-width:260px) {
+    .bar{
+        width: 100px;
+    }
+} */
+.home:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 30px;
+}
+.text_part1{
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.text_embarce{
+        width: fit-content;
+        height: fit-content;
+        /* border: 4px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 40px;
+}
+.text_trans{
+    width: fit-content;
+    height: fit-content;
+    
+    /* border: 4px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+        top: 100px;
+
+}
+.text_line3{
+    width: fit-content;
+    height: fit-content;
+    /* border: 4px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 145px;
+    left: 10px;
+
+}
+.t_line1{
+    color: white;
+    font-size: 3vw;
+    font-weight: 900;
+}
+.t_line2{
+    color: white;
+    font-size: 3vw;
+    font-weight: 900;
+
+}
+.t_line3{
+    color: white;
+    font-size: 1vw;
+    font-weight: 500;
+
+}
+/* .lines{
+    position: relative;
+    border: 5px solid black;
+} */
+@media  screen and (max-width:900px) {
+    .text_part1{
+        width: 200px;
+        top: 100px;
+    }
+    
+}
+@media  screen and (max-width:700px) {
+    .text_part1{
+        top: 80px;
+    }
+    .text_trans{
+        top: 60px;
+    }
+    .text_line3{
+        top: 80px;
+    }
+}
+@media  screen and (max-width:500px) {
+    .text_part1{
+        width: 100px;
+        height:100px ;
+        top: 50px;
+        left: 50px;
+    }   
+}
+@media  screen and (max-width:400px) {
+    .text_part1{
+        width: 100px;
+        /* height: 80px; */
+        top: 30px;
+        left: 0px;
+    }   
+}
+@media  screen and (max-width:300px) {
+    .text_part1{
+        width: 50px;
+        height: 70px;
+        top: 30px;
+        left: 0px;
+    }   
+}
+@media  screen and (max-width:260px) {
+    .text_part1{
+        width: 50px;
+        height: 70px;
+        top: 0px;
+        left: -40px;
+    }   
+}
+.part2{
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+.p2_l1{
+    height:50% ;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p2_l2{
+    height:50% ;
+    width: 100%;
+    /* background-color:aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.p2_l3{
+    height:33.33% ;
+    width: 100%;
+    /* background-color:cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.l1{
+    width: 60%;
+    height: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.l2{
+    width: 80%;
+    height: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+.l3{
+    width: 70%;
+    height: 70%;
+    /* border: 1px solid black; */
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.l2_b1{
+    font-size: 2vw;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.l2_b1:hover{
+    background-color: red;
+}
+.l3_1{
+    width: 100%;
+    height: 50%;
+}
+.l3_2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.products{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Product1{
+        width: 18%;
+        height: 80%;
+        /* border: 1px solid red; */
+}
+.Product2{
+    width: 18%;
+    height: 80%;
+    /* border: 1px solid red; */
+}
+.Product3{
+    width: 18%;
+    height: 80%;
+    /* border: 1px solid red; */
+}
+.p1{
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-image: url(https://www.altlights.com/assets/img/About/Residential/Cards_Residential_Sway.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.p2{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid rebeccapurple ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    opacity: 0.5;
+}
+.p3{
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-image: url(https://www.altlights.com/assets/img/About/Residential/Cards_Residential_ERCO.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.p4{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid rebeccapurple ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+.p5{
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-image: url(https://www.altlights.com/assets/img/About/Residential/Cards_Residential_POLO.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.p6{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid rebeccapurple ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    opacity: 0.5;
+}
+.p1:hover + .p2{
+    color: red;
+}
+.p3:hover + .p4{
+    color:red ;
+}
+.p5:hover + .p6{
+   color: red;
+    
+}
+@media screen and (max-width:1000px) {
+    .products{
+        height:400px ;
+    }
+    .Product1{
+        display: none;
+        
+    }
+    .Product3{
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .products{
+        height: 350px;
+    }
+}
+@media screen and (max-width:600px) {
+    .products{
+        height: 300px;
+    }
+}
+.p_head{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    column-gap: 20px;
+
+}
+.text_our{
+    width: fit-content;
+    height: fit-content;
+    font-size: 4vw;
+}
+.part1:hover{
+    background-image: url(https://www.altlights.com/assets/img/Night_Uncolored.png );
+    background-size: 100% 100%;
+}
+.part3{
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.p3_sub{
+    width: 60%;
+    height: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.p3_p1{
+    width: 320px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.p3_p2{
+    width: 320px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.p3_p3{
+    width: 320px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.p3_p4{
+    width: 320px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.p3_p5{
+    width: 320px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p3_p1_sub{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rebeccapurple;
+    background-image: url(https://www.altlights.com/assets/img/Project/Picture11.png);
+    background-size: 100% 100%; 
+
+}
+.p3_p2_sub{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rebeccapurple;
+    background-image: url(https://www.altlights.com/assets/img/Project/Picture21.jpg);
+    background-size: 100% 100%;
+}
+.p3_p3_sub{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rebeccapurple;
+    background-image: url(https://www.altlights.com/assets/img/Project/Picture31.jpg);
+    background-size: 100% 100%;
+}
+.p3_p4_sub{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rebeccapurple;
+    background-image: url(https://www.altlights.com/assets/img/Project/Picture41.jpg);
+    background-size: 100% 100%;
+}
+.p3_p5_sub{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rebeccapurple;
+    background-image: url(https://www.altlights.com/assets/img/Project/Picture51.jpg);
+    background-size: 100% 100%;
+}
+.part4{
+    width: 99.9%;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p4_sub{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.p4_p1{
+    width: 10%;
+    height: 80px;
+    border: 1px solid red;
+    background-image: url(https://www.altlights.com/assets/img/logo_slider/16.png);
+    background-size: 100% 100%;
+}
+.p4_p2{
+    width: 10%;
+    height: 80px;
+    border: 1px solid red;
+    background-image: url(https://www.altlights.com/assets/img/logo_slider/17.png);
+    background-size: 100% 100%;
+}
+.p4_p3{
+    width: 10%;
+    height: 80px;
+    border: 1px solid red;
+    background-image: url(https://www.altlights.com/assets/img/logo_slider/3.png);
+    background-size: 100% 100%;
+}
+.p4_p4{
+    width: 10%;
+    height: 80px;
+    border: 1px solid red;
+    background-image: url(https://www.altlights.com/assets/img/logo_slider/9.png);
+    background-size: 100% 100%;
+}
+.p4_p5{
+    width: 10%;
+    height: 80px;
+    border: 1px solid red;
+    background-image: url(https://www.altlights.com/assets/img/logo_slider/13.png);
+    background-size: 100% 100%;
+}
+.p4_p6{
+    width: 10%;
+    height: 80px;
+    border: 1px solid red;
+    background-image: url(https://www.altlights.com/assets/img/logo_slider/18.png);
+    background-size: 100% 100%;
+}
+.p4_p7{
+    width: 10%;
+    height: 80px;
+    border: 1px solid red;
+    background-image: url(https://www.altlights.com/assets/img/logo_slider/1.png);
+    background-size: 100% 100%;
+}
+.part5{
+    width: 99.9%;
+    height: 700px;
+    border: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.p5_p1{
+    width: 90%;
+    height: 60px;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D5D5D5;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+.p5_p2{
+    width: 90%;
+    height: 500px;
+    flex-wrap: wrap;
+    border: 1px solid rebeccapurple;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.p5_p1_b1{
+    width: 20%;
+    height: 80%;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p5_p1_b2{
+    width: 20%;
+    height: 80%;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.p5_p1_b3{
+    width: 20%;
+    height: 80%;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.p5_p1_b4{
+    width: 20%;
+    height: 80%;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p5_p1_b1:hover{
+    background-color: red;
+    color: white;
+}
+.p5_p1_b2:hover{
+    background-color: red;
+    color: white;
+}
+.p5_p1_b3:hover{
+    background-color: red;
+    color: white;
+}
+.p5_p1_b4:hover{
+    background-color: red;
+    color: white;
+}
+.p5_p2_l1{
+    width: 20%;
+    height: 30px;
+    /* border: 1px solid red; */
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 2vw;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.p5_p2_l2{
+    width: 90%;
+    height: fit-content;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.div2{
+    width: 100%;
+    height: fit-content;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.div3{
+    width: 100%;
+    height: fit-content;
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+
+}
+.div4{
+    width: 100%;
+    height: fit-content;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+
+}
+@media screen and (max-width:640px){
+    .name_disable{
+        display: none;
+    }
+}
+.p5_p2_l2_parent{
+    width: 100%;
+    height: fit-content;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:790px) {
+    .name_dis{
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .p5_p1{
+        margin-left:30px ;
+    }
+}
+@media screen and (max-width:400px) {
+    .p5_p1{
+        margin-left:20px; 
+    }
+}
+@media screen and (max-width:750PX){
+    .p5_p2{
+        height: 600PX;
+    }
+}
+@media screen and (max-width:530PX){
+    .p5_p2{
+        height: 700PX;
+    }
+}
+@media screen and (max-width:425PX){
+    .p5_p2{
+        height: 800PX;
+    }
+    .part5{
+        height: 900px;
+    }
+}
+@media screen and (max-width:350PX){
+    .p5_p2{
+        height: 900PX;
+    }
+    .part5{
+        height: 1000px;
+    }
+}
+.part6{
+    width: 100%;
+    height: 700px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.part6_p1{
+    width: 500px;
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    /* aspect-ratio: 1/1; */
+    justify-content: start;
+}
+.part6_p2{
+    width: 700px;
+    height: 400px;
+    background-color: bisque;
+}
+.part6_p1_book{
+    width: 400px;
+    height: 400px;
+    /* background-color: black; */
+    background-image: url("	https://www.altlights.com/assets/img/3D_Catalogs/OutDoor_Compressed/13.png");
+    background-size: 100% 100% ;
+}
+.part6_p2_1{
+    width: 100%;
+    height: 70px;
+    background-color: pink;
+}
+.part6_p2_2{
+    width: 100%;
+    height: 150px;
+    background-color: yellow;
+}
+.part6_p2_3{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    column-gap: 100px;
+}
+.part6_p2_4{
+    width: 100%;
+    height: 50px;
+    background-color: magenta;
+}
+.part6_p2_1_m{
+    color: red;
+    font-size: 40px;
+}
+span{
+    color: black;
+}
+.part6_p2_2_m{
+    color: gray;
+    opacity: 0.8;
+    font-size: 24px;
+}
+.button_1{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.button_2{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.button_3{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.button_1_m{
+    color: white;
+}
+.button_2_m{
+    color: white;
+}
+.button_3_m{
+    color: white;
+}
+.options_data{
+    width: 0px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.option{
+    color: white;
+    padding: 8px 2px;
+    display: none;
+    /* transition: all 1s; */
+    text-shadow: 0px 0px 50px red;
+}
+.option:hover{
+    transform: scale(1.08);
+    
+    cursor: pointer;
+}

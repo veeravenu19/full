@@ -1,0 +1,59 @@
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 300px 300px 300px 300px;
+    background-color: sandybrown;
+}
+.eyes1{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-right: 2px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 3px 2px black;
+}
+.eyes2{
+    /* float: right; */
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-right: 2px;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 3px 2px black;
+}
+
+.eyes3{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 200px 200px 200px 200px;
+    
+}
+.mouth{
+    box-shadow: 0px 0px 3px 2px black;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teeth{
+    width: 300px;
+    border: 2px solid black;
+}

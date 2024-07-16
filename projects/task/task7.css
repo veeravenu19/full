@@ -1,0 +1,358 @@
+.div1{
+    width: 100%;
+    height: 97svh;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.div2{
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to bottom left,#75C1BD,#4A8F9E,#1D5D80 );
+    border: 1px solid black;
+}
+.div3{
+    width: 100%;
+    height: 15%;
+    border: 0.5px solid  rgb(230, 233, 227);
+}
+.div4{
+    width: 15%;
+    height: 100%;
+    float: left;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.div5{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid green; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.div6{
+    width: 14.3%;
+    height: 100%;
+    /* border: 1px solid magenta; */
+    float: right; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 10%;
+    height: 40%;
+    border: 1px solid black;
+    box-shadow: 6px 6px 0px black;
+}
+.topic{
+    font-weight: 600;
+    font-size: 23px;
+
+}
+.div7{
+    height: 70%;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.el{
+    color: #276B78;
+    cursor: pointer;
+}
+.ele{
+    color: white;
+    cursor: pointer;
+}
+.circle{
+    width: 30%;
+    height: 60%;
+    border-radius: 250%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.div8{
+    width: 100%;
+    height: 35%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    width: 70%;
+    height: 50%;
+    color: white;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.para{
+    width: fit-content;
+    height: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.t1{
+    width: fit-content;
+    height: fit-content;
+    font-size: 50px;
+    position: absolute;
+    /* color: red; */
+}
+.t2{
+    font-size: 20px;
+}
+.space{
+    width: 100%;
+    height: 20%;
+}
+.search1{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.search2{
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.se{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    /* background-color: red; */
+}
+.se1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+}
+.se2{
+    width: 150%;
+    height: 100%;
+    border: none;
+}
+.se2:focus{
+    outline:none
+}
+.se3{
+    width: 18%;
+    height: 80%;
+    background-color: #82CFC7;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.part2{
+    width: 100%;
+    height: 50%;
+    background-color: #82CFC7;
+    border-bottom-left-radius:80px ;
+    border-bottom-right-radius: 80px;
+}
+.parta{
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 23%;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.partb{
+    width: 35%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: 10%;
+    left: 44%;
+    border-radius: 40px;
+    background-image: url("graphbg.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+
+}
+.a1{
+    width: 100%;
+    height: 15%;
+    /* background-color: brown; */
+    /* position: relative; */
+    display: flex;
+    align-items: end;
+}
+.a2{
+    width: 100%;
+    height: 35%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a3{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.a4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#plogo{
+    overflow: visible;
+}
+.b1{
+    width: 80%;
+    height: 70%;
+    /* background-color: red; */
+    /* position: absolute; */
+    float: left;
+
+}
+.b2{
+    width: 20%;
+    height: 70%;
+    /* background-color: yellow; */
+    /* position: absolute; */
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c1{
+    font-size: 110%;
+    margin-left: 8%;
+    font-weight: 900;
+}
+.c2{
+    width:30% ;
+    height: 50%;
+    background-color: skyblue;
+}
+.c3{
+    width: 90%;
+    height: 90%;
+    /* background-color: red; */
+}
+.x1{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.x2{
+    width: 100%;
+    height: 35%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x3{
+    width: 100%;
+    height: 20%;
+    /* background-color: pink; */
+}
+.x4{
+    width: 100%;
+    height: 30%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.y1{
+    width: 80%;
+    height: 70%;
+    /* background-color: palegreen; */
+}
+.y2{
+    width: 20%;
+    height: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.y3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 8%;
+}
+.y4{
+    width: 50%;
+    height: 50%;
+    background-color: skyblue;
+}
+.z1{
+    width: 90%;
+    height: 90%;
+    /* background-color: yellow; */
+    color: white;
+}
+.z2{
+    width: 30%;
+    height: 40%;
+    border-radius:20px;
+    margin-left: 20px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.z3{
+    width: 80%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10%;
+}
+.z4{
+    width: 20%;
+    height: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.z5{
+    color: white;
+
+}
